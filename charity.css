@@ -1,0 +1,360 @@
+
+        body{
+            margin: 0px;
+        }
+         .container{
+            background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg.webp);
+            height: 800px;
+            background-size: cover;
+            margin: 0%;
+        } 
+
+        .navbar {
+            display:flex;
+            justify-content: space-between;
+            height: 100px;
+        }
+
+        .container2{
+            display: flex;
+            gap:30px;
+            justify-content: space-between;
+            color: white;
+            cursor: pointer;
+        }
+
+        .one:hover{
+            color: aqua;
+            transition: all in 0.4s;
+            cursor: pointer;
+         }
+
+         .two:hover{
+            color:aqua;
+            cursor: pointer;
+            transition: all in 0.4s;
+         }
+
+         .three:hover{
+            color: aqua;
+            cursor: pointer;
+            transition: all in 0.4s;
+         }
+
+         .four:hover{
+            color: aqua;
+            cursor: pointer;
+            transition: all in 0.4s;
+         }
+
+         .five:hover{
+            color: aqua;
+            cursor: pointer;
+            transition: all in 0.4s;
+         }
+
+         .six:hover{
+            color: aqua;
+            cursor: pointer;
+            transition: all in 0.4s;
+         } 
+        .container3{
+            display:flex;
+            color: white;
+            gap:20px;
+        }
+        #button {
+            width: 130px;
+            height: 50px;
+            background-color: #F15B43;
+            color: white; 
+        }
+        #button:hover {
+            background-color: transparent;
+            cursor: pointer;
+            transition: all;
+        }
+  
+        .middle-text{
+            width: 500px;
+            padding-top: 100px;
+            padding-bottom: 30;
+            padding-left: 80px;
+            color: #fff;
+            font-family: "jost", sans-serif;
+            font-size: 70px;
+            margin-bottom: 20px;
+        }  
+        .under-middle-text{
+            width:500px;
+            font-size: 30px;
+            color: #fff;
+            padding-left: 80px;
+        }   
+        .ongoing-programs{
+            color: #fff;
+            background-color: #65C9BB;
+            margin-left: 80px;
+            margin-top: 50px;
+            padding: 20px 20px; 
+        }
+        .ongoing-programs:hover{
+            cursor: pointer;
+            background-color: transparent;
+            transition: 0.4s ease;
+        }
+         .second-row{
+            display: flex;
+            padding-top:70px ;
+            padding-left:50px ;
+            padding-right: 20px;
+            padding-bottom: 50px;
+            gap: 25px;
+            background-color: #FCF2EB;
+            height: 300px
+        }
+        .second-row-img{
+            height: 250px;
+            width: 350px;
+        }
+        .second-row-first-line{
+            color: #65C9BB;
+            font-size: 16px;
+        }
+        .second-row-second-line{
+            font-size: 20px;
+            color: #263B5C;
+        }
+        .second-row-third-line{
+            color: #777777;
+            font-size: 33px;
+            font-weight: 300;
+        }
+        .Donate-now{
+            background-color: #F15B43;
+            padding: 17px 35px;
+            color: #fff;
+            font-size: 18px;
+            border: 2px solid transparent;
+        }
+        .Donate-now:hover{
+            background-color: #fff;
+            color: #F15B43;
+            border:2px solid #F15B43;
+        }
+        .view-programs{
+            background-color: #fff;
+            padding: 17px 35px;
+            color: #F15B43;
+            font-size: 18px;
+            border:2px solid #F15B43;
+        }
+        .view-programs:hover{
+            background-color: #F15B43;
+            color: #fff;
+            border: 2px solid #F15B43;
+        }
+        .third-row{
+            display: flex;
+            padding-top:70px ;
+            padding-left:50px ;
+            padding-right: 20px;
+            padding-bottom: 30px;
+            gap: 25px;
+        } 
+        .third-row-first-line{
+            color: #65C9BB;
+            font-size: 16px;
+        }
+        .third-row-second-line{
+            font-size: 35px;
+            color: #263B5C;
+        }
+        .third-row-third-line{
+            color: #777777;
+            font-size: 20px;
+        }
+        .Discover-More{
+            background-color: #F15B43;
+            padding: 17px 35px;
+            color: #fff;
+            font-size: 18px;
+            border: 2px solid transparent;
+        }
+        .Discover-More:hover{
+            background-color: #fff;
+            color: #F15B43;
+            border:2px solid #F15B43;
+        }
+        .fourth-row{
+            height: 450px;
+            width: 1250px;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        .fourth-row-first-coloum{
+            height: 420px;
+            width: 300px;
+            background-color: #F4F2F1;
+            border: 2px solid transparent;
+        }
+        .fourth-row-first-img{
+            height: 200px;
+            width: 300px;
+        }
+        .fourth-row-first-img-first-line{
+            color: #263B5C;
+            font-size: 17px;
+        }
+        .fourth-row-first-img-first-line:hover{
+            color: #F15B43;
+            cursor: pointer;
+        }
+        .fourth-row-first-img-second-line{
+            font-size: 15px;
+        }
+        .fourth-row-first-img-third-line{
+            display: flex;
+            justify-content: space-between;
+        }
+        .donate{
+             background-color: #F15B43;
+            padding: 17px 35px;
+            color: #fff;
+            font-size: 18px;
+            border: 2px solid transparent; 
+        }.donate:hover{
+             background-color: #fff;
+            color: #F15B43;
+            border:2px solid #F15B43;
+        }
+        .fourth-row-second-coloum{
+            height: 420px;
+            width: 300px;
+            background-color: #F4F2F1;
+            border: 2px solid transparent;
+        }
+        .fourth-row-second-img{
+            height: 200px;
+            width: 300px;
+        }.fourth-row-second-img-first-line{
+            color: #263B5C;
+            font-size: 17px;
+        }
+        .fourth-row-second-img-first-line:hover{
+            color: #F15B43;
+            cursor: pointer;
+        }
+        .fourth-row-third-coloum{
+            height: 420px;
+            width: 300px;
+            background-color: #F4F2F1;
+            border: 2px solid transparent;
+        }
+        .fourth-row-third-img{
+            height: 200px;
+            width: 300px;
+        }
+        .fifth-row{
+            display: flex;
+            padding-top:70px ;
+            padding-left:50px ;
+            padding-right: 20px;
+            padding-bottom: 30px;
+            gap: 25px;
+        }
+        .fifth-row-first-line{
+            color: #65C9BB;
+            font-size: 17px;
+        }
+        .fifth-row-second-line{
+            font-size: 20px;
+            color: #263B5C;
+        }
+        .fifth-row-third-line{
+            color: #777777;
+            font-size: 25px;
+        }.fifth-row-left-text{
+            padding-top: 70px;
+            padding-left: 70px;
+        }
+        .join-us-today{
+            background-color: #fff;
+            padding: 17px 35px;
+            color: #F15B43;
+            font-size: 18px;
+            border:2px solid #F15B43;
+        }
+        .join-us-today:hover{
+            background-color: #F15B43;
+            color: #fff;
+            border: 2px solid #F15B43;
+        }
+        .sixth-row{
+            background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/gallery/section-bg1.jpg.webp);
+            height: 600px;
+            width: 1300px;
+            background-attachment:fixed ;
+        }
+        .sixth-row-upper-text{
+            text-align: center;
+            padding-top: 50px;
+            color: #fff;
+        }
+        .sixth-row-upper-text-first-line{
+            font-size: 25px;
+        }
+        .sixth-row-upper-text-second-line{
+            font-size: 35px;
+        }.sixth-row-lower-text{
+            display: flex;
+             justify-content: space-between; 
+        }
+        .sixth-row-lower-text-first-row{
+            height: 350px;
+            width: 300px;
+            padding-left: 30px;
+        }
+        .sixth-row-lower-text-first-row-fisrt-img{
+           padding-left: 80px;
+        }
+        .sixth-row-lower-text-first-row-first-line{
+            text-align: center;
+            color: #fff;
+            font-size: 25px;
+        }
+        .sixth-row-lower-text-first-row-second-line{
+            text-align: center;
+            color: #fff;
+            font-size: 22px;
+            font-weight: 100;
+        }
+        .bottom{
+            background-color: #263B5C;
+            height: 400px;
+            display: flex;
+            justify-content: space-around;
+            color: #fff;
+            padding-top: 50px;
+
+        }
+        .bottom-first-row{
+            width: 300px;
+            height: 300px;
+            font-size: 10px;
+
+        }
+        .bottom-second-row{
+            display: flex; 
+            flex-direction: column;
+            justify-content:space-between ; 
+            height: 300px;
+        }
+        .bottom-third-row{
+            width: 300px;
+        }
+        .bottom-fourth-row-second-line{
+            width: 300px;
+        }
+       
