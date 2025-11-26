@@ -3,7 +3,7 @@
             margin: 0px;
         }
          .container{
-            background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg.webp);
+            background-image: url(/assets/h1_hero1.jpg);
             height: 800px;
             background-size: cover;
             margin: 0%;
@@ -23,41 +23,16 @@
             cursor: pointer;
         }
 
+        .one {
+            color: white;
+            text-decoration: none;
+        }
+
         .one:hover{
             color: aqua;
             transition: all in 0.4s;
             cursor: pointer;
          }
-
-         .two:hover{
-            color:aqua;
-            cursor: pointer;
-            transition: all in 0.4s;
-         }
-
-         .three:hover{
-            color: aqua;
-            cursor: pointer;
-            transition: all in 0.4s;
-         }
-
-         .four:hover{
-            color: aqua;
-            cursor: pointer;
-            transition: all in 0.4s;
-         }
-
-         .five:hover{
-            color: aqua;
-            cursor: pointer;
-            transition: all in 0.4s;
-         }
-
-         .six:hover{
-            color: aqua;
-            cursor: pointer;
-            transition: all in 0.4s;
-         } 
         .container3{
             display:flex;
             color: white;
@@ -111,11 +86,16 @@
             padding-bottom: 50px;
             gap: 25px;
             background-color: #FCF2EB;
-            height: 300px
+            height: 300px;
+            justify-content: space-evenly;
         }
         .second-row-img{
             height: 250px;
             width: 350px;
+        } 
+        .second-row-left-side{
+            height: 350px;
+            width: 400px;
         }
         .second-row-first-line{
             color: #65C9BB;
@@ -127,7 +107,7 @@
         }
         .second-row-third-line{
             color: #777777;
-            font-size: 33px;
+            font-size: 18px;
             font-weight: 300;
         }
         .Donate-now{
@@ -136,7 +116,8 @@
             color: #fff;
             font-size: 18px;
             border: 2px solid transparent;
-        }
+        } 
+       
         .Donate-now:hover{
             background-color: #fff;
             color: #F15B43;
@@ -190,7 +171,7 @@
             height: 450px;
             width: 1250px;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
             
         }
         .fourth-row-first-coloum{
@@ -205,7 +186,8 @@
         }
         .fourth-row-first-img-first-line{
             color: #263B5C;
-            font-size: 17px;
+            font-size: 18px;
+
         }
         .fourth-row-first-img-first-line:hover{
             color: #F15B43;
@@ -218,17 +200,7 @@
             display: flex;
             justify-content: space-between;
         }
-        .donate{
-             background-color: #F15B43;
-            padding: 17px 35px;
-            color: #fff;
-            font-size: 18px;
-            border: 2px solid transparent; 
-        }.donate:hover{
-             background-color: #fff;
-            color: #F15B43;
-            border:2px solid #F15B43;
-        }
+       
         .fourth-row-second-coloum{
             height: 420px;
             width: 300px;
@@ -247,7 +219,7 @@
             cursor: pointer;
         }
         .fourth-row-third-coloum{
-            height: 420px;
+            height: 440px;
             width: 300px;
             background-color: #F4F2F1;
             border: 2px solid transparent;
@@ -255,6 +227,20 @@
         .fourth-row-third-img{
             height: 200px;
             width: 300px;
+        }
+        .donate{
+            background-color: #F15B43;
+            padding: 17px 35px;
+            color: #fff;
+            font-size: 18px;
+            border: 2px solid transparent;
+        }
+        .donate:hover{
+            background-color: #ffffff33;
+            color: #F15B43;
+            border:2px solid #F15B43;
+            padding: 17px 35px;
+            font-size: 18px;
         }
         .fifth-row{
             display: flex;
@@ -292,7 +278,7 @@
             border: 2px solid #F15B43;
         }
         .sixth-row{
-            background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/gallery/section-bg1.jpg.webp);
+            background-image: url(/assets/section-bg1.jpg);
             height: 600px;
             width: 1300px;
             background-attachment:fixed ;
